@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Practical 13 - Stage 1 and 2</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+                <div class="container"></div>
+                    <header>
+                        <h1>Cat Adoption Interest Form</h1>
+                    </header>
+                    <main>
+                        <form name="Adoption" method="post">
+                            <input name="txt" type="text" placeholder="Full Name" required="true">
+                            <input name="txt" type="text" placeholder="Email Adress">
+                            <input name="txt" type="text" placeholder="Phone Number">
+                            <input name="radio-btn" type="radio" value="off">
+                            <input name="check" type="checkbox" value="agree">
+                            <input name="slider" type="range" min="0" max="12" value="6">
+                            <input name="check" type="checkbox" value="agree">
+                            <select name="Other Species">
+                                    <option value="NA" selected>Not Applicable</option>
+                                    <option value="dog">Dog</option>
+                                    <option value="bird">Bird</option>
+                                    <option value="fish">Fish</option>
+                                    <option value="feline">Feline</option>
+                            </select>
+                            </form>
+                        <input type="submit" id="submit" value="Submit"> 
+                    </main>
+                </div>
+        <script src="js.js"></script>
+    </body>
+</html>
